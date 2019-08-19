@@ -1,0 +1,28 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+[user]
+	name = NickProdromou
+	email = nick.prodromou1@gmail.com
+[url "https//:"]
+	inseadOf = git://
+[core]
+	editor = code --wait
+	autocrlf = input
+[code]
+    editor = code --wait
+# Comment: Start of "Extra Block"
+# Comment: This is to unlock VSCode as your git diff and git merge tool
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+# Comment: End of "Extra Block"
+[mergetool]
+	keepBackup = false

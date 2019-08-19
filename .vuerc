@@ -1,0 +1,29 @@
+{
+  "useTaobaoRegistry": false,
+  "packageManager": "npm",
+  "latestVersion": "3.10.0",
+  "lastChecked": 1564911820369,
+  "presets": {
+    "kitchen sink ts bruh": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": true,
+          "tsLint": true,
+          "lintOn": [
+            "save"
+          ],
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-pwa": {},
+        "@vue/cli-plugin-unit-jest": {},
+        "@vue/cli-plugin-e2e-cypress": {}
+      },
+      "router": true,
+      "routerHistoryMode": false,
+      "vuex": true,
+      "cssPreprocessor": "node-sass"
+    }
+  }
+}
