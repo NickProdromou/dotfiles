@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-social
+    root: ~/bauer/@bxm/social
+    layout: even-vertical
+    panes:
+      - profile npm bxm/social && clear && cd src
+      - profile git bxm/social && clear
+      - profile tests bxm/social && clear

@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-gallery
+    root: ~/bauer/@bxm/gallery
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-gallery && clear && cd src
+      - profile git bxm-gallery && clear
+      - profile tests bxm-gallery && clear

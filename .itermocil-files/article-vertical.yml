@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-article
+    root: ~/bauer/@bxm/article
+    layout: even-vertical
+    panes:
+      - profile npm bxm-article && clear && cd src
+      - profile git bxm-article && clear
+      - profile tests bxm-article && clear

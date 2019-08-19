@@ -1,0 +1,9 @@
+windows: 
+  - name: multi-site
+    root: ~/bauer/sites/multi-site
+    layout: even-vertical
+    panes:
+      - profile dev multi-site && clear && cd src
+      - profile npm multi-site && clear && cd src && npm i
+      - profile tests multi-site && clear && cd src
+      - profile git multi-site && clear && gs

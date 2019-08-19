@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-behaviour
+    root: /Users/nickpee/bauer/@bxm/behaviour
+    layout: even-vertical
+    panes:
+      - profile npm bxm-behaviour && clear
+      - profile tests bxm-behaviour && clear
+      - profile git bxm-behaviour && clear && gs

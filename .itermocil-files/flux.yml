@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-flux
+    root: ~/bauer/@bxm/flux
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-flux && clear
+      - profile git bxm-flux && clear
+      - profile tests bxm-flux && clear

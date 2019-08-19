@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-react-script-loader
+    root: /Users/nickpee/bauer/@bxm/react-script-loader
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-react-script-loader && clear
+      - profile git bxm-react-script-loader && clear && gs
+      - profile tests bxm-react-script-loader && clear

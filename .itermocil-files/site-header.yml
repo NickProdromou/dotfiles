@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-site-header
+    root: ~/bauer/@bxm/wn-site-header
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-header && clear && cd src
+      - profile git bxm-header && clear
+      - profile tests bxm-header && clear

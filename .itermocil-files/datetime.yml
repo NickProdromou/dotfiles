@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-datetime
+    root: ~/bauer/@bxm/datetime
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-datetime && clear
+      - profile git bxm-datetime && clear
+      - profile tests bxm-datetime && clear

@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-server
+    root: ~/bauer/@bxm/shared-ui
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-shared-ui && clear && cd src
+      - profile git bxm-shared-ui && clear && gs
+      - profile tests bxm-shared-ui && clear

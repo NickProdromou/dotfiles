@@ -1,0 +1,8 @@
+windows: 
+  - name: gateway-serivce
+    root: ~/bauer/sites/gateway-serivce
+    layout: main-vertical-flipped
+    panes:
+      - profile npm gateway-serivce && clear
+      - profile git gateway-serivce && clear
+      - profile tests gateway-serivce && clear

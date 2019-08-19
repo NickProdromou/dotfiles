@@ -1,0 +1,9 @@
+windows: 
+  - name: homes-site
+    root: ~/bauer/sites/homes-site
+    layout: even-vertical
+    panes:
+      - profile dev homes-site && clear && cd src
+      - profile npm homes-site && clear && cd src && npm i
+      - profile tests homes-site && clear && cd src
+      - profile git homes-site && clear && gs

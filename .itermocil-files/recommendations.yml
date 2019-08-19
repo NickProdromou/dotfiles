@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-recommendations
+    root: ~/bauer/@bxm/recommendations
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-recommendations && clear && cd src
+      - profile git bxm-recommendations && clear
+      - profile tests bxm-recommendations && clear

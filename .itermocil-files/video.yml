@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-video
+    root: ~/bauer/@bxm/video
+    layout: tiled
+    panes:
+      - profile npm @bxm/video && clear
+      - profile tests @bxm/video && clear
+      - profile git @bxm/video && clear

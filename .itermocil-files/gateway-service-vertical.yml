@@ -1,0 +1,8 @@
+windows: 
+  - name: gateway-service
+    root: ~/bauer/sites/gateway-service
+    layout: even-vertical
+    panes:
+      - profile npm gateway-service`` && clear
+      - profile git gateway-service`` && clear
+      - profile tests gateway-service`` && clear

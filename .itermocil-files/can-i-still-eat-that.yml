@@ -1,0 +1,9 @@
+windows: 
+  - name: can-i-still-eat-that
+    root: ~/dev-playground/projects/can-i-still-eat-that/
+    layout: tiled
+    panes:
+      - profile dev can-i-still-eat-that
+      - profile npm can-i-still-eat-that
+      - profile git can-i-still-eat-that
+      - profile tests can-i-still-eat-that

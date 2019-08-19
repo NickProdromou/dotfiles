@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-ad
+    root: ~/bauer/@bxm/ad
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-ad && clear
+      - profile git bxm-ad && clear
+      - profile tests bxm-ad && clear

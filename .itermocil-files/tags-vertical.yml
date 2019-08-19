@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-tags
+    root: ~/bauer/@bxm/tags
+    layout: even-vertical
+    panes:
+      - profile npm @bxm/tags && clear && cd src
+      - profile tests @bxm/tags && clear
+      - profile git @bxm/tags && clear

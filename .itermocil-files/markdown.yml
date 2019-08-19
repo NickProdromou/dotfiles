@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-markdown
+    root: ~/bauer/@bxm/markdown
+    layout: tiled
+    panes:
+      - profile npm @bxm/markdown && clear
+      - profile tests @bxm/markdown && clear
+      - profile git @bxm/markdown && clear

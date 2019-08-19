@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-listing-service
+    root: ~/bauer/services/listing-service
+    layout: even-vertical
+    panes:
+      - profile npm listing-service && clear
+      - profile git listing-service && clear
+      - profile tests listing-service && clear

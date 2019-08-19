@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-image
+    root: ~/bauer/@bxm/image
+    layout: even-vertical
+    panes:
+      - profile npm @bxm/image && clear
+      - profile tests @bxm/image && clear
+      - profile git @bxm/image && clear

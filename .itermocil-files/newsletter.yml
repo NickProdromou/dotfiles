@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-newsletter
+    root: /Users/nickpee/bauer/@bxm/wn-newsletter
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-mewsletter && clear
+      - profile git bxm-mewsletter && clear && gs
+      - profile tests bxm-mewsletter && clear

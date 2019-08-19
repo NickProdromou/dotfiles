@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-teaser
+    root: ~/bauer/@bxm/teaser
+    layout: even-vertical
+    panes:
+      - profile npm bxm-teaser && clear
+      - profile tests bxm-teaser && clear
+      - profile git bxm-teaser && clear

@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-api-utils
+    root: ~/bauer/@bxm/api-utils
+    layout: even-vertical
+    panes:
+      - profile npm bxm-api-utils && clear
+      - profile git bxm-api-utils && clear
+      - profile tests bxm-api-utils && clear

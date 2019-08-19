@@ -1,0 +1,9 @@
+windows: 
+  - name: now-site
+    root: ~/bauer/sites/now-site
+    layout: even-vertical
+    panes:
+      - profile dev now-site && clear && cd src
+      - profile npm now-site && clear && cd src && npm i
+      - profile tests now-site && cd src && clear
+      - profile git now-site && clear && gs

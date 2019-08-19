@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-ui
+    root: /Users/nickpee/bauer/@bxm/wn-ui
+    layout: even-vertical
+    panes:
+      - profile npm bxm-ui && clear
+      - profile tests bxm-ui && clear
+      - profile git bxm-ui && clear && gs

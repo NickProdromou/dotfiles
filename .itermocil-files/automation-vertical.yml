@@ -1,0 +1,7 @@
+windows: 
+  - name: bxm-automation
+    root: ~/bauer/@bxm/automation
+    layout: even-vertical
+    panes:
+      - profile git bxm-automation && clear
+      - profile npm bxm-automation && clear && cd src

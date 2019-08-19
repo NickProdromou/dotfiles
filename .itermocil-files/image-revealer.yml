@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-image-revealer
+    root: ~/bauer/@bxm/image-revealer
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-image-revealer && clear
+      - profile git bxm-image-revealer && clear
+      - profile tests bxm-image-revealer && clear

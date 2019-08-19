@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-server
+    root: ~/bauer/@bxm/server
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-server && clear && cd src
+      - profile git bxm-server && clear && gs
+      - profile tests bxm-server && clear

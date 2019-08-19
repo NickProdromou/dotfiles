@@ -1,0 +1,8 @@
+windows: 
+  - name: bxm-microservice
+    root: ~/bauer/@bxm/microservice
+    layout: main-vertical-flipped
+    panes:
+      - profile npm bxm-microservice && clear && cd src
+      - profile git bxm-microservice && clear && gs
+      - profile tests bxm-microservice && clear
