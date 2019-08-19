@@ -1,6 +1,6 @@
 #Sets up sets up tiny care terminal
-if [ -f ~/$BASH_DIR/config/ttc-config.bash ]; then
-	. ~/$BASH_DIR/config/.ttc-config.bash
+if [ -f ~/$BASH_DIR/config/ttc-config.sh ]; then
+	. ~/$BASH_DIR/config/.ttc-config.sh
 fi
 
 # init tiny care terminal with work repos or home repos
