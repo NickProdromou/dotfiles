@@ -2,7 +2,7 @@
 # $1 is the editor to open the file with
 
 edit-bash() {
-	$1 ~/.bash_profile
+	$1 ~/dotfiles
 }
 
 edit-itermocil() {

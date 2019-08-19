@@ -1,5 +1,5 @@
 #Sets up sets up tiny care terminal
-if [ -f ~/$BASH_DIR/config/ttc-config.sh ]; then
+if [ -f ~/$BASH_DIR/config/.ttc-config.sh ]; then
 	. ~/$BASH_DIR/config/.ttc-config.sh
 fi
 
