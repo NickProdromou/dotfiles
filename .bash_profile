@@ -13,3 +13,6 @@ source ~/$BASH_DIR/ttc_setup.sh
 source ~/$BASH_DIR/edit_shortcuts.sh
 source ~/$BASH_DIR/git_functions.sh
 source ~/$BASH_DIR/aliases.sh
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
